@@ -1,0 +1,85 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="./Contactus.css">
+</head>
+<body>
+    <div>
+        <div>
+            <ul style="display: flex; list-style-type: none;">
+                <a  style="color: black;" href="./index.html">
+                    <li style="margin: 0px 10px;">Home</li>
+                </a>
+                <a  style="color: black;" href="./Course.html">
+                    <li style="margin: 0px 10px;">Course Content</li>
+                </a>
+                <a  style="color: black;" href="./Reg.html">
+                    <li style="margin: 0px 10px;">Contact Us</li>
+                </a>
+                <a  style="color: black;" href="./About us.html">
+                    <li style="margin: 0px 10px;">About Us</li>
+                </a>
+            </ul>
+        </div>
+        <form action=""><br>
+            <div>
+                <label for="username">username: </label>
+                <input type="text" placeholder="Enter Your Name" name="username" id="">
+            </div>
+            <div style="display: flex; justify-content: center;">
+                <div>
+                    <label for="">Select The Course</label>
+                </div>
+                
+                <div>
+                    <div>
+                        <input type="checkbox" name="MERN" id="">
+                        <label for="MERN">MERN</label>
+                    </div>
+                    <div>
+                        <input type="checkbox" name="MEAN" id="">
+                        <label for="MEAN">MEAN</label>
+                    </div>
+                   
+                </div>
+                
+            </div>
+            <div style="display: flex; justify-content: center;">
+                <div>
+                    <label for="">Gender</label>
+                </div>
+             <div>
+                    <div>
+                        <input type="radio" name="gender" id="" value="male">
+                        <label for="male">MALE</label>
+                    </div>
+                    <div>
+                        <input style="margin-left: 25px;" type="radio" name="gender" id="" value="female">
+                        <label for="female">FEMALE</label>
+                    </div>
+                    <div>
+                        <input style="margin-left: 18px;" type="radio" name="gender" id="" value="other">
+                        <label for="other">OTHER</label>
+                    </div>
+             </div>
+                
+            </div>
+            <div>
+                <label for="Branch">Select the Branch</label>
+                <select name="Branch" id="">
+                    <option value="Btm">BTM</option>
+                    <option value="Basavanagudi">Basavanagudi</option>
+                    <option value="Hebbal">Hebbal</option>
+                </select>
+            </div><br>
+            <div>
+                <input id="btn" type="submit" value="Submit">
+            </div><br>
+        </form>
+    </div>
+</body>
+</html>

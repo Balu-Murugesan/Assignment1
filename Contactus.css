@@ -1,0 +1,19 @@
+body {
+  background-color: cadetblue;
+}
+form {
+  background-color: cornsilk;
+  text-align: center;
+  width: 40%;
+  border-radius: 50px 0px;
+  position: fixed;
+  right: 30%;
+  bottom: 40%;
+  box-shadow: rgb(38, 57, 77) 0px 20px 30px -10px;
+}
+#btn {
+  padding: 5px 10px;
+  border-radius: 5px;
+  border: none;
+  background-color: cadetblue;
+}
